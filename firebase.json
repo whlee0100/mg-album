@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site" : "album-project0316",
+    "site": "album-project0316",
     "public": "dist",
     "ignore": [
       "firebase.json",
