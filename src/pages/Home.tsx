@@ -24,7 +24,7 @@ export default function Home() {
       // ⭐️ UX용 1차 이메일 검증 (실제 보안은 Firestore Rules에서 처리)
       const userEmail = result.user.email;
       if (!userEmail?.endsWith('@gvcs-mg.org')) {
-        alert('***학교 공식 이메일(@gvcs-mg.org)로만 로그인할 수 있습니다!!***');
+        alert('학교 공식 이메일(@gvcs-mg.org)로만 로그인할 수 있습니다!!***');
         await signOut(auth);
         return;
       }
